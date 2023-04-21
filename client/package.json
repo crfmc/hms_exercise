@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "esbuild": "esbuild ./src/app.js --bundle --minify --sourcemap --loader:.js=jsx --outfile=./public/js/out.js --watch"
+    "esbuild": "esbuild ./src/app.js --bundle --minify --sourcemap --loader:.js=jsx --outfile=./public/js/out.js",
+    "dev": "esbuild ./src/app.js --bundle --minify --sourcemap --loader:.js=jsx --outfile=./public/js/out.js --watch"
   },
   "author": "",
   "license": "ISC",
