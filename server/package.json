@@ -1,0 +1,23 @@
+{
+  "name": "hms_exercise",
+  "version": "1.0.0",
+  "description": "Server for react Todo App exercise",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ../client/src/sass:../client/public/css",
+    "nodemon": "nodemon index.js",
+    "dev": "sass --watch ../client/src/sass:../client/public/css & nodemon --watch ../client/src index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Ferreyra-Mansilla",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
