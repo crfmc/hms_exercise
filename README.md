@@ -9,8 +9,7 @@ npm run esbuild
 cd ../server
 npm install
 npm run dev
-
-
-Open (localhost:3001)[localhost:3001] in your browser.
-
 ```
+
+
+Open [localhost:3001](localhost:3001) in your browser.
